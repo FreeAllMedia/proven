@@ -17,7 +17,7 @@ if(isNotEmpty.call(wallet, "zip").result) {
 
 # Quality and Compatibility
 
-[![Build Status](https://travis-ci.org/FreeAllMedia/proven.png?branch=master)](https://travis-ci.org/FreeAllMedia/proven) [![Code Climate](https://codeclimate.com/github/FreeAllMedia/proven/badges/gpa.svg)](https://codeclimate.com/github/FreeAllMedia/proven) [![Dependency Status](https://david-dm.org/FreeAllMedia/proven.png?theme=shields.io)](https://david-dm.org/FreeAllMedia/proven?theme=shields.io) [![Dev Dependency Status](https://david-dm.org/FreeAllMedia/proven/dev-status.svg)](https://david-dm.org/FreeAllMedia/proven?theme=shields.io#info=devDependencies)
+[![Build Status](https://travis-ci.org/FreeAllMedia/proven.png?branch=master)](https://travis-ci.org/FreeAllMedia/proven) [![Coverage Status](https://coveralls.io/repos/FreeAllMedia/proven/badge.svg)](https://coveralls.io/r/FreeAllMedia/proven) [![Code Climate](https://codeclimate.com/github/FreeAllMedia/proven/badges/gpa.svg)](https://codeclimate.com/github/FreeAllMedia/proven) [![Dependency Status](https://david-dm.org/FreeAllMedia/proven.png?theme=shields.io)](https://david-dm.org/FreeAllMedia/proven?theme=shields.io) [![Dev Dependency Status](https://david-dm.org/FreeAllMedia/proven/dev-status.svg)](https://david-dm.org/FreeAllMedia/proven?theme=shields.io#info=devDependencies)
 
 *Every build and release is automatically tested on the following platforms:*
 
