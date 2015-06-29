@@ -11,7 +11,10 @@
     "url": "https://github.com/FreeAllMedia/proven.git"
   },
   "keywords": [
-    "proven"
+    "proven",
+    "object validation",
+    "validation",
+    "es6"
   ],
   "author": "Free All Media, LLC",
   "contributors": [
