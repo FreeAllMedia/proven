@@ -1,6 +1,6 @@
 {
   "name": "proven",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ES6 Component for validations.",
   "main": "index.js",
   "scripts": {
