@@ -1,6 +1,6 @@
 {
   "name": "proven",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "ES6 Component for validations.",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,11 @@
     "proven",
     "object validation",
     "validation",
-    "es6"
+    "es6",
+		"isClass",
+		"isNotEmpty",
+		"isNotAssigned",
+		"isNumber"
   ],
   "author": "Free All Media, LLC",
   "contributors": [
