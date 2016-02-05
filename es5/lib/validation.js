@@ -12,6 +12,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.isNotEmpty = isNotEmpty;
 exports.isAssigned = isAssigned;
 exports.isNumber = isNumber;
+exports.isClass = isClass;
 var check = require("check-types");
 
 function isNotEmpty(name, callback) {
@@ -76,4 +77,11 @@ function isNumber(name, callback) {
 	} else {
 		return resultDetails;
 	}
+}
+
+function isClass(value) {
+	var result = typeof value === "function" && (/^\s*class\s+/.test(value.toString()) || /_class\S+/i.test(value.toString()));
+	return {
+		result: result
+	};
 }

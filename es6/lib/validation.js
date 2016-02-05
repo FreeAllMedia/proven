@@ -69,3 +69,10 @@ export function isNumber(name, callback) {
 		return resultDetails;
 	}
 }
+
+export function isClass(value) {
+  const result = typeof value === "function" && (/^\s*class\s+/.test(value.toString()) || /_class\S+/i.test(value.toString()));
+	return {
+		result: result
+	};
+}
